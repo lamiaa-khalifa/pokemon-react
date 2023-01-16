@@ -1,0 +1,13 @@
+.pokemon-card {
+  /* background-color: aquamarine; */
+  text-align: justify;
+  /* border: 4px solid gray; */
+  width: fit-content;
+  text-align: center;
+  display: inline-block;
+  margin: 10px;
+}
+
+.pokemon-card img {
+  width: 70%;
+}
