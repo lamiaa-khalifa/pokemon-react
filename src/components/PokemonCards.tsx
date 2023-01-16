@@ -1,9 +1,8 @@
-import React from 'react';
 import Card from './Card';
 import { pokemons } from '../pokemonList';
 
 const PokemonCards = () => {
-  const pokemonList = pokemons.map(pokemon => <Card name={pokemon.name} type={pokemon.type} image={pokemon.image} />)
+  const pokemonList = pokemons.map(pokemon => <Card pokemon={pokemon} />)
   return (
     <div>
       {pokemonList}
